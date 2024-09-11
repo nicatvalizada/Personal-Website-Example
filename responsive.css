@@ -1,0 +1,83 @@
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .title-text h1 {
+    font-size: 3rem;
+  }
+  .top-img {
+    height: 50vh;
+  }
+
+  .title-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .skill-row {
+    margin: 20px 0;
+    max-width: 100%;
+  }
+
+  .contact-message {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 1em;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+/* Tablet Styles */
+@media (max-width: 768px) {
+  .title-text h1 {
+    font-size: 4rem;
+  }
+
+  .title-text h2 {
+    font-size: 2rem;
+  }
+
+  .intro {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+
+  .skills {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .skill-row {
+    margin: 20px 0;
+    max-width: 50%;
+  }
+
+  .contact-message {
+    width: 80%;
+  }
+
+  button {
+    width: 100%;
+    padding: 1.2em;
+  }
+
+  .copyright {
+    color: #eaf6f6;
+    font-size: 1rem;
+    padding: 20px 0 0 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 10px;
+  }
+}
